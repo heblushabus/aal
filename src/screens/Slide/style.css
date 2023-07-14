@@ -1,0 +1,112 @@
+.slide {
+  background-color: #fbf1c7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide .overlap-wrapper {
+  background-color: #fbf1c7;
+  border: 1px none;
+  height: 1080px;
+  width: 1920px;
+}
+
+.slide .overlap {
+  height: 783px;
+  left: 248px;
+  position: relative;
+  top: 148px;
+  width: 1423px;
+}
+
+.slide .group {
+  height: 526px;
+  left: 858px;
+  position: absolute;
+  top: 128px;
+  width: 446px;
+}
+
+.slide .overlap-group {
+  height: 526px;
+  position: relative;
+}
+
+.slide .ellipse {
+  background-color: #fe8019;
+  border-radius: 132.5px/134.5px;
+  filter: blur(150px);
+  height: 269px;
+  left: 181px;
+  position: absolute;
+  top: 257px;
+  width: 265px;
+}
+
+.slide .div {
+  background-color: #8ec07e;
+  border-radius: 105.5px;
+  filter: blur(90px);
+  height: 211px;
+  left: 0;
+  position: absolute;
+  top: 151px;
+  width: 211px;
+}
+
+.slide .ellipse-2 {
+  background-color: #83a598;
+  border-radius: 126px;
+  filter: blur(100px);
+  height: 252px;
+  left: 188px;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 252px;
+}
+
+.slide .frame {
+  height: 361px;
+  left: 110px;
+  position: absolute;
+  top: 210px;
+  width: 560px;
+}
+
+.slide .text-wrapper {
+  color: #504945;
+  font-family: "Open Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 84px;
+  width: 560px;
+}
+
+.slide .h-1 {
+  color: #504945;
+  font-family: "Open Sans", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -15px;
+  white-space: nowrap;
+  width: 356px;
+}
+
+.slide .img {
+  height: 783px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1423px;
+}
